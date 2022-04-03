@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>상품 선택</legend>
+          <p><b>주문할 상품을 선택해 주세요.</b></p>
+          <label><input type="checkbox" value="s_3">선물용 3kg</label>      <!--2개 이상의 항목을 선택하려고 할 때 checkbox-->
+          <label><input type="checkbox" value="s_5">선물용 5kg</label>
+          <label><input type="checkbox" value="f_3">가정용 3kg</label>
+          <label><input type="checkbox" value="f_5">가정용 5kg</label>
+          <!--value는 버튼을 서버에게 알려 줄 때 넘겨줄 값을 지정함-->
+          <!--checked는 처음에 아무것도 선택되지 않은 상태에 여러 항목 중에서 기본으로 선택해 놓고 싶은 항목에 사용, 속성값은 따로 없음-->
+          <p><b>포장 선택</b></p>
+          <ul>
+            <li><label><input type="radio" name="gift" value="yes" >선물 포장</label></li>      <!--1개 항목만 선택하려고 할 때 radio-->
+            <li><label><input type="radio" name="gift" value="no">선물 포장 안 함</label></li> 
+             <!--name속성은 PHP같은 웹 프로그래밍에서 폼 요소를 제어할 때 자주 사용됨, 하나의 버튼만 선택할 수 있게 하려면 name값을 똑같이 지정해야함-->
+          </ul>
+        </fieldset> 
+      </form>
+</body>
+</html>
