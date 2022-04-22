@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>     /*스타일 우선순위*/
+    p{
+        color: black;
+    }
+    h1{
+        color: brown !important;
+    }
+    p{
+        color: blue;
+    }
+</style>
+<body>
+    <h1 style = "color: green">레드향</h1>
+    <!--타임 스타일과 인라인 스타일 모두 사용함, 타임 스타일보다 인라인 스타일이 우선순위가 높다. 하지만 타임 스타일을 정의할 때 !important를 사용해 중요 스타일로 지정했기 때문에 타임스타일의 우선순위가 높아서 갈색으로 표시됨-->
+    <p style = "color: red">껍질에 붉은 빛이 돌아 레드향이라 불린다.</p>
+    <!--스타일 시트 안에 2가지로 선언되어있다. 타임 스타일 중요도에 2가지 색은 적용 범위가 같아 나중에 적은 스타일의 우선순위가 높다. 하지만 인라인 스타일의 우선수위가 높아 두 번째 문단은 red, 세 번째와 네 번째 문단은 blue으로 표시됨-->
+    <p>레드향은 한라봉과 귤을 교배한 것으로</p>
+    <p>일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+</body>
+</html>
