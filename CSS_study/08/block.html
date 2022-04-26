@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body  * {
+        border:1px solid blue;
+    }
+    .accent {
+        color:red;
+        font-weight:bold;
+    }
+</style>
+
+<body>
+    <!--블록 레벨 요소 사용-->
+    <h1>시간이란...</h1>        <!--태그를 사용해 요소를 삽입했을 때 혼자 한 줄을 차지하는 것-->
+    <div>내일 죽을 것 처럼<p class = "accent">오늘</p>을 살고</div>     <!--대표적인 태그, h1, div, p 등-->
+    <p>영원히 살 것처럼<br>내일을 꿈꾸어라.</p>
+
+    <!--인라인 레벨 요소 사용-->
+    <h1>시간이란...</h1>        <!--한 줄을 차지하지 않고 콘텐츠만큼만 영역을 차지하고 나머지 공간에는 다른 요소가 올 수 있음-->
+    <div>내일 죽을 것 처럼<span class = "accent">오늘</span>을 살고</div>   <!--span, img, strong 등-->
+    <p>영원히 살 것처럼<br>내일을 꿈꾸어라.</p>
+</body>
+</html>
