@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        width: 1200px;      /* 내용 전체의 너 */
+        margin: 20px auto;  /* 내용을 화면 가운데에 배치하도록 좌우 마진 auto */
+    }
+    #header {
+        width: 100%;        /* 부모 요소의 너비와 똑같게 */
+        height: 120px;      
+        background-color: #acacac;
+    }
+    #left-sidebar {
+        width: 250px;
+        height: 600px;
+        background-color: #e9e9e9;
+        float: left;
+    }
+    #contents {
+        width: 800px;
+        height: 600px;
+        background-color: #f7f7f7;
+        float: left;
+    }
+    #right-sidebar {
+        width: 150px;
+        height: 600px;
+        float: left;
+    }
+    #footer {
+        width: 100%;
+        height: 100px;
+        background-color: #888888;
+        clear: left;
+    }
+
+</style>
+<body>
+    <div id="container">
+        <header id="header">
+            <h1>사이트 제목</h1>
+  </header>
+        <aside id="left-sidebar">
+            <h2>사이드바</h2>				
+  </aside>
+        <section id="contents">
+            <h2>본문</h2>
+  </section>
+        <aside id="right-sidebar">
+            <h2>사이드바</h2>
+  </aside>
+        <footer id="footer">
+            <h2>푸터</h2>
+        <footer>
+    </div>
+</body>
+</html>
