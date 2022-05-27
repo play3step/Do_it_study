@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #static { position: relative; }     /* 포지셔닝 relative */
+    #relative-1 { position: relative; } 
+    #relative-2 {
+        position: relative;
+        left: 100px;    
+        top: -1 0px;    /* 위쪽에서 -50px 떨어지게(위로 이동) */
+    }
+    #fixed{
+        width: 100px;
+        height: 100px;
+        background-color: #222;
+        position: fixed;        /* 포지셔닝 fixed */
+        right: 30px;
+        top: 30px;
+    }
+</style>
+<body>
+    <p id = "static">Ex et adipisicing ...</p>
+    <p id = "relative-1">lorem ipsum reaprehnedrit ...</p>
+    <p id = "relative-2">Excepteur voluptate ad ...</p>
+    <p id = "fixed"></p>
+</body>
+</html>

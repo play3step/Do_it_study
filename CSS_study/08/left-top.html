@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #pos1{
+        position: absolute;     /* absolute relative(위칫값을 지저할 수 있다는 점을 제외하면 static(문서의 흐름에 맞춰 배치)과 같음)값을 사용한 상위 요소를 기준으로 위치를 지정해 배치 */
+        left: 50px;
+        top: 50px;
+    }
+    #pos2{
+        position: absolute;
+        right: 100px;
+        top: 100px;
+    }
+    #pos3{
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+    }
+</style>
+<body>
+    <p id = "pos1">Ex et adipisicing....</p>
+    <p id = "pos2">Lorem ipsum reprehederit....</p>
+    <p id = "pos3">Exceotueur volupatie....</p>
+</body>
+</html>
