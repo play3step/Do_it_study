@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: #0000ff;     /* 16진수 표기법 */
+    }
+    p {
+        color: green;       /* 색상 이름 */
+    }
+    .accent{
+        color: hsl(0, 100%, 50%);   /* hsl 표기법 */
+        font-weight: bold;
+    }
+    .color1 {
+        color: rgb(0,0,0);    /* red, green, blue 썩이지 않으면 0 가득 썩이면 255, 검은색 */
+    }
+    .color2 {
+        color: rgba(0, 0, 0, 0.5);    /* 마지막 alpha 불투명도의 값 0~1 1은 완전 불투명 */
+    }
+
+</style>
+<body>
+    <h1>레드향</h1>
+    <p>껍질에 붉은 빛이 돌아 <span class = "accent">레드향</span>이라 부른다.</p>
+    <p>레드향은 한라봉과 귤을 교배한것</p>
+    <h2 class = "color1">HTML</h2>
+    <h2 class = "color2">CSS</h2>
+</body>
+</html>
