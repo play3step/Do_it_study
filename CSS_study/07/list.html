@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .book1{     /* 순서 없는 목록 */
+        list-style-type: none;
+    }
+    .book2{     /* 알파벳 대문자 목록 지정 */
+        list-style-type: upper-alpha;
+    }
+    .inside{    /* 목록 들여쓰기 */
+        list-style-position: inside;
+    }
+</style>
+<body>
+        <h1>도서 시리즈</h1>
+        <ul class="book1">
+            <li>Do it!</li>
+            <li>첫 코딩 시리즈</li>
+            <li>된다 시리즈</li>
+        </ul>
+
+        <ol class="book2">
+            <li>Do it!</li>
+            <li>첫 코딩 시리즈</li>
+            <li>된다 시리즈</li>
+        </ol>
+        <ul>
+            <li>Do it!</li>
+            <li>첫 코딩 시리즈</li>
+            <li>된다 시리즈</li>
+        </ul>
+        <ul class="inside">
+            <li>Do it!</li>
+            <li>첫 코딩 시리즈</li>
+            <li>된다 시리즈</li>
+        </ul>
+</body>
+</html>
